@@ -14,7 +14,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{|position| position == "X" || position == "O"
+  board.all?{|position| position == "X" || position == "O"}
 end
 
 # Define your WIN_COMBINATIONS constant
