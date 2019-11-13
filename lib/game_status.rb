@@ -17,4 +17,7 @@ def full?(board)
   board.all?{|position| position == "X" || position == "O"}
 end
 
+def draw?(board)
+  
+
 # Define your WIN_COMBINATIONS constant
